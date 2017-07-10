@@ -1,0 +1,10 @@
+views.nested_accordion:
+  version: VERSION
+  css:
+    theme:
+      css/views-nested-accordion.css: {}
+  js:
+    js/views-nested-accordion.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery.ui.accordion
