@@ -14,7 +14,7 @@
             /* Our Nested Accordion Settings */
             var viewname = this.viewname;
             /* Generate Accordion Effect on Outer Header Click */
-            $('.view-id-' + viewname + ' .view-grouping .view-grouping-header').click(function() {
+            $('.view-id-' + viewname + ' .view-grouping .view-grouping-header', context).click(function() {
               if($(this).hasClass("nested-accordion")) {
                 /* If Accordion is Open, then Clicking on it will close the Accordion. */
                 $(this).removeClass("nested-accordion");
